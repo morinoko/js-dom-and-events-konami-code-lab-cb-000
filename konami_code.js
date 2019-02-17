@@ -22,5 +22,3 @@ function init() {
 
   document.addEventListener('keydown', konamiCodeHandler);
 }
-
-init();
