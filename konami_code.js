@@ -5,7 +5,7 @@ function init() {
   let keyIndex = 0;
 
   function konamiCodeHandler(e) {
-    const pressedKey = parseInt(e.which);
+    const pressedKey = parseInt(e.detail || e.which || e.location);
 
     if (pressedKey === code[keyIndex]) {
       keyIndex++;
