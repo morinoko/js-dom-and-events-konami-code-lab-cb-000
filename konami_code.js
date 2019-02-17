@@ -10,7 +10,7 @@ function init() {
     if (pressedKey === code[keyIndex]) {
       keyIndex++;
 
-      if keyIndex === code.length {
+      if (keyIndex === code.length) {
         alert('Congrats! You entered the Konami Code!');
 
         keyIndex = 0;
