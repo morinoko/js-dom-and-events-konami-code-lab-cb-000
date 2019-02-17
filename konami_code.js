@@ -20,7 +20,7 @@ function init() {
     }
   }
 
-  document.addEventListener(konamiCodeHandler);
+  document.addEventListener('keydown', konamiCodeHandler);
 }
 
 init();
